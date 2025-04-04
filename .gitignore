@@ -1,0 +1,51 @@
+# ========================
+# Ignorar arquivos de C
+# ========================
+
+# Arquivos de compilação
+*.o
+*.out
+*.exe
+
+# Arquivos temporários e de backup
+*~
+*.swp
+*.bak
+
+# Arquivos e projetos do Code::Blocks
+*.depend
+*.layout
+*.autosave
+*.cbp
+*.layout.save
+
+# ========================
+# Ignorar arquivos de Java
+# ========================
+
+# Arquivos compilados
+*.class
+
+# Arquivos e configurações do Eclipse
+.project
+.classpath
+.settings/
+bin/
+build/
+
+# ========================
+# IDEs e editores (geral)
+# ========================
+
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# Arquivos de sistema
+# ========================
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
